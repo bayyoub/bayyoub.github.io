@@ -109,6 +109,7 @@ h1,h2,h3,p {margin-top:0}
 .footer-links span {text-transform:uppercase;font-size:12px;letter-spacing:.16em;font-weight:800;color:#6fc4cc;margin-bottom:10px}
 .footer-links a {font-size:14px;color:#dce9ed}
 .footer-links a:hover {color:#83dbdc}
+.footer-links .footer-full-name {font-size:14px;line-height:1.45;color:#aac1ca;max-width:200px;margin:0 0 8px}
 .footer-bottom {border-top:1px solid #345063;padding-block:18px 25px;color:#90acb8;font-size:12px;display:flex;justify-content:space-between;gap:20px}
 .page-hero {background:#e9f0f4;padding-block:80px 90px;border-bottom:1px solid #cfdee5}
 .page-hero .eyebrow {margin-bottom:27px}
@@ -120,7 +121,11 @@ h1,h2,h3,p {margin-top:0}
 .theme-row {display:grid;grid-template-columns:1fr 2.2fr;gap:45px;border-bottom:1px solid #ccdce3;padding:54px 0 62px}
 .theme-number {font-size:13px;color:#208090;font-weight:800;letter-spacing:.14em}
 .theme-content h2,.methods-band h2,.join-main h2 {font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,3.3vw,3rem);font-weight:400;letter-spacing:-.035em;line-height:1.16;margin-bottom:20px}
-.theme-content>p {max-width:760px;color:#536d7e;font-size:17px;line-height:1.8;margin-bottom:27px}
+.theme-copy>p {max-width:760px;color:#536d7e;font-size:17px;line-height:1.8;margin-bottom:27px}
+.theme-content.with-visual {display:grid;grid-template-columns:minmax(0,1.35fr) minmax(240px,1fr);gap:clamp(24px,3vw,42px);align-items:start}
+.theme-visual {margin:4px 0 0;min-width:0}
+.theme-visual img {display:block;width:100%;height:auto;border:1px solid #d5e3e9;background:#e8f0f4}
+.theme-visual figcaption {font-size:12px;line-height:1.5;color:#738b98;letter-spacing:.07em;margin-top:9px;text-transform:uppercase}
 .theme-tags {display:flex;flex-wrap:wrap;gap:8px}
 .theme-tags span {border:1px solid #bfd3dc;color:#346c7e;padding:7px 12px;font-size:13px;font-weight:700;background:#fafdfe}
 .methods-band {background:#dcebf0;display:grid;grid-template-columns:1fr 2.2fr;gap:45px;padding-block:60px 75px;margin-bottom:90px}
@@ -215,7 +220,7 @@ h1,h2,h3,p {margin-top:0}
 .index-row em {white-space:nowrap}
 .footer-identity {display:flex;align-items:center;gap:18px}
 .footer-identity strong {font-family:Georgia,"Times New Roman",serif;font-size:1.65rem;font-weight:400;letter-spacing:-.03em}
-.footer-identity .ku-seal {width:72px;height:84px;object-fit:contain;background:#f9fbfc;padding:5px;flex:none}
+.footer-identity .ku-seal {width:90px;height:auto;object-fit:contain;flex:none}
 .footer-identity p {margin:9px 0 0}
 .person-heading {padding:25px 15px 10px 8px;border-right:1px solid #d4e2e8}
 .person-heading h2 {font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.75rem,2.5vw,2.45rem);font-weight:400;line-height:1.16;letter-spacing:-.035em;margin:13px 0 14px}
@@ -223,6 +228,7 @@ h1,h2,h3,p {margin-top:0}
 .team-join p {font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.7rem,2.5vw,2.35rem);line-height:1.18;margin:0;max-width:680px}
 .team-join .text-link {color:#e8f5f7;border-color:#81b0be;flex:none}
 @media (max-width:1100px) {.ku-affiliation span {display:none}.ku-affiliation {padding-left:16px}.header-email {padding-left:16px}}
+@media (max-width:1050px) {.theme-content.with-visual {grid-template-columns:1fr}.theme-visual {max-width:500px}}
 @media (max-width:900px) {.ku-affiliation {border:0;padding-left:8px}.header-email {padding-left:10px}}
 @media (max-width:650px) {
   .lab-logo {width:40px;height:40px}
@@ -231,5 +237,5 @@ h1,h2,h3,p {margin-top:0}
   .header-email {margin-left:12px}
   .person-heading {border-right:0;border-bottom:1px solid #d4e2e8;padding:10px 4px 19px}
   .person-info {padding:0 4px 12px}
-  .footer-identity .ku-seal {width:60px;height:70px}
+  .footer-identity .ku-seal {width:72px}
 }

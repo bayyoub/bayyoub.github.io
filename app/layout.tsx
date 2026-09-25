@@ -37,10 +37,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <footer className="site-footer">
       <div className="section-shell footer-main">
         <div className="footer-identity">
-          <img src="/ku-seal.png" width="72" height="84" alt="Kuwait University crest" className="ku-seal" />
+          <img src="/ku-seal-white.png" width="400" height="670" alt="Kuwait University crest and wordmark" className="ku-seal" />
           <div><strong>Kuwait University</strong><p>Department of Chemical Engineering<br />College of Engineering & Petroleum</p></div>
         </div>
-        <div className="footer-links"><span>QSMD</span>{links.map(link => <Link key={link.href} href={link.href}>{link.label}</Link>)}</div>
+        <div className="footer-links"><span>QSMD</span><p className="footer-full-name">Quantum Simulation and Materials Design Lab</p>{links.map(link => <Link key={link.href} href={link.href}>{link.label}</Link>)}</div>
         <div className="footer-links"><span>Connect</span><a href="mailto:bader.alayyoub@ku.edu.kw">Email</a><a href="https://scholar.google.com/citations?user=x6ue484AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://orcid.org/0000-0001-9643-3254" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div>
       </div>
       <div className="section-shell footer-bottom"><span>© {new Date().getUTCFullYear()} Bader A. Alayyoub</span><span>Kuwait University · Kuwait</span></div>
