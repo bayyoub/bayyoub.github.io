@@ -1,0 +1,7 @@
+export const publications = [
+  {year:"2026", journal:"Physical Chemistry Chemical Physics", title:"Facet-dependent thermal stability of SrTiO₃ surfaces driven by defects, adsorbates, and reconstructions", authors:"Bader A. Alayyoub", doi:"10.1039/D6CP02362B", subject:"Oxide surfaces"},
+  {year:"2026", journal:"European Journal of Inorganic Chemistry", title:"Temperature-driven nickel phosphide phase transformation and its impact on furfural hydrogenation catalysis", authors:"Ayushi Tyagi, Abdulaziz W. Alherz, Bader A. Alayyoub, et al.", doi:"10.1002/ejic.70274", subject:"Catalysis"},
+  {year:"2026", journal:"Advanced Theory and Simulations", title:"Surface segregation trends in doped perovskite titanates", authors:"Bader A. Alayyoub, Yingjie Shi, Rohit Ramesh, et al.", doi:"10.1002/adts.202502289", subject:"Perovskites"},
+  {year:"2025", journal:"ACS Omega", title:"Evaluation of surface and bulk properties of alkali halides: A first-principles study on (100) and (110) facets", authors:"Abdulaziz W. Alherz and Bader A. Alayyoub", doi:"10.1021/acsomega.5c06914", subject:"First-principles methods"},
+  {year:"2023", journal:"The Journal of Physical Chemistry C", title:"Ni ingress and egress in SrTiO₃ single crystals of different facets", authors:"Bader A. Alayyoub, Tianyu Cao, Ohhun Kwon, John M. Vohs, Raymond J. Gorte, and Aleksandra Vojvodic", doi:"10.1021/acs.jpcc.2c05884", subject:"Oxide surfaces"},
+].map(p => ({...p, url:`https://doi.org/${p.doi}`}));
