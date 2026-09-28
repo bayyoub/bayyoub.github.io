@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: { default: "QSMD | Bader A. Alayyoub", template: "%s | QSMD" },
-  description: "Atomistic materials research led by Dr. Bader A. Alayyoub at Kuwait University.",
+  description: "Atomistic materials research led by Bader A. Alayyoub at Kuwait University.",
   icons: { icon: "/qsmd-logo.png", shortcut: "/qsmd-logo.png" },
 };
 

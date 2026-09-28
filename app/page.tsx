@@ -4,7 +4,7 @@ import { publications } from "./publications/data";
 const focus = [
   { n: "01", title: "Oxide surfaces & defects", text: "Vacancies, adsorbates, and reconstructions govern the stability and chemistry of metal oxides and perovskites.", detail: "Metal oxides / perovskites" },
   { n: "02", title: "Finite-temperature stability", text: "Vibrational and configurational contributions connect first-principles energies to experimental conditions.", detail: "Thermodynamics / phase stability" },
-  { n: "03", title: "Molecular interfaces", text: "Molecular dynamics and enhanced sampling reveal transport and adsorption; ongoing student work explores dissolution at solid–liquid interfaces.", detail: "Dynamics / enhanced sampling" },
+  { n: "03", title: "Molecular interfaces", text: "Molecular dynamics and enhanced sampling probe adsorption, ion transport, and dissolution at solid–liquid interfaces.", detail: "Dynamics / enhanced sampling" },
 ];
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
         <div className="hero-actions"><Link className="button button-light" href="/research">Research <span aria-hidden="true">↗</span></Link><Link className="text-link light-link" href="/publications">Publications <span aria-hidden="true">↗</span></Link></div>
       </div>
       <div className="hero-index" aria-label="Research themes">
-        <div className="index-topline"><span>Research index</span><span>01 — 03</span></div>
+        <div className="index-topline"><span>Research areas</span><span>01 — 03</span></div>
         <div className="index-row"><span>01</span><strong>Oxide surfaces &amp; defects</strong><em>Structure</em></div>
         <div className="index-row"><span>02</span><strong>Finite-temperature stability</strong><em>Thermodynamics</em></div>
         <div className="index-row"><span>03</span><strong>Molecular interfaces</strong><em>Dynamics</em></div>
@@ -27,7 +27,7 @@ export default function Home() {
 
     <section className="section-shell intro-section">
       <p className="section-label">About the group</p>
-      <div><h2>From atomic mechanisms to materials behavior.</h2><p>Led by Dr. Bader A. Alayyoub at Kuwait University, the Quantum Simulation and Materials Design (QSMD) Lab combines density functional theory, molecular dynamics, and thermodynamics to investigate surfaces, defects, catalysis, and interfaces.</p><Link className="text-link" href="/team">People <span aria-hidden="true">↗</span></Link></div>
+      <div><h2>From atomic mechanisms to materials behavior.</h2><p>Led by Bader A. Alayyoub at Kuwait University, the Quantum Simulation and Materials Design (QSMD) Lab combines density functional theory, molecular dynamics, and thermodynamics to investigate surfaces, defects, catalysis, and interfaces.</p><Link className="text-link" href="/team">People <span aria-hidden="true">↗</span></Link></div>
     </section>
 
     <section className="section-shell focus-section">

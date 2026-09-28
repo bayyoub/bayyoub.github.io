@@ -136,7 +136,7 @@ h1,h2,h3,p {margin-top:0}
 .publication-authors {color:#5e7683;margin:14px 0 9px;font-size:15px}
 .doi-link {font-size:13px;font-weight:700;color:#237a89;border-bottom:1px solid #91b8c2}
 .doi-link:hover {color:#10465b}
-.team-section {padding-block:70px 110px}
+.team-section {padding-block:70px 65px}
 .team-section>.section-label {margin-bottom:25px}
 .person-card {display:grid;grid-template-columns:260px 1fr;gap:55px;background:#fff;border:1px solid #d4e2e8;padding:30px;max-width:1000px}
 .person-initials {background:#193d56;color:#86d9db;display:grid;place-items:center;min-height:300px;font-family:Georgia,"Times New Roman",serif;font-size:5.5rem;letter-spacing:-.07em}
@@ -147,6 +147,13 @@ h1,h2,h3,p {margin-top:0}
 .person-bio {max-width:650px}
 .person-links {display:flex;flex-wrap:wrap;gap:22px;margin-top:28px;font-size:14px;color:#196f84;font-weight:800}
 .person-links a:hover {text-decoration:underline}
+.students-section {padding-bottom:100px}
+.students-section>.section-label {margin:0 0 25px}
+.student-group {display:grid;grid-template-columns:260px 1fr;gap:55px;border-top:1px solid #cbdbe2;padding:26px 0 32px}
+.student-group h3 {font-size:14px;line-height:1.5;text-transform:uppercase;letter-spacing:.1em;color:#27788a;font-weight:800;margin:2px 0 0}
+.student-names {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.student-entry h4 {font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.45rem,2vw,1.85rem);font-weight:400;line-height:1.25;letter-spacing:-.025em;margin:0}
+.student-entry p {font-size:14px;color:#5e7683;margin:9px 0 0}
 .team-join {margin-bottom:90px}
 .join-content {display:grid;grid-template-columns:minmax(0,1.7fr) minmax(280px,.8fr);gap:clamp(55px,8vw,130px);padding-block:90px 125px}
 .join-main .section-label {margin-bottom:26px}
@@ -167,6 +174,7 @@ h1,h2,h3,p {margin-top:0}
   .focus-grid {grid-template-columns:1fr 1fr}
   .focus-card:last-child {grid-column:span 2;min-height:250px}
   .page-hero-grid {grid-template-columns:1fr;gap:22px}
+  .student-group {grid-template-columns:200px 1fr;gap:28px}
 }
 @media (max-width:650px) {
   .header-inner {padding-top:12px}
@@ -203,6 +211,9 @@ h1,h2,h3,p {margin-top:0}
   .methods-band {padding-block:45px;margin-bottom:65px}
   .papers-section {padding-block:40px 70px}
   .team-section {padding-block:60px}
+  .students-section {padding-bottom:70px}
+  .student-group {grid-template-columns:1fr;gap:20px;padding:25px 0 30px}
+  .student-names {grid-template-columns:1fr;gap:20px}
   .person-card {grid-template-columns:1fr;padding:18px;gap:22px}
   .person-initials {min-height:220px}
   .person-info {padding:0 4px 12px}
