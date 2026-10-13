@@ -10,13 +10,16 @@ export default function Team() {
     <section className="section-shell students-section" aria-labelledby="students-heading">
       <h2 id="students-heading" className="section-label">Students</h2>
       <div className="student-group">
-        <h3>Graduate student</h3>
-        <div className="student-names"><article className="student-entry"><h4>Badryah Alshehab</h4><p>Master’s student</p></article></div>
+        <h3>Graduate students</h3>
+        <div className="student-names">
+          <article className="student-entry"><h4>Sarah Aba Alsafi</h4><p>PhD student</p></article>
+          <article className="student-entry"><h4>Badryah Alshehab</h4><p>Master’s student</p></article>
+        </div>
       </div>
       <div className="student-group">
         <h3>Undergraduates</h3>
         <div className="student-names">
-          {['Nadeen Humoda', 'Malak Baleid', 'Shaima Mohammad'].map(name => <article className="student-entry" key={name}><h4>{name}</h4></article>)}
+          {['Nadeen Humoda', 'Malak Baleid', 'Shaima Mohammad', 'Layal Nabolsi'].map(name => <article className="student-entry" key={name}><h4>{name}</h4></article>)}
         </div>
       </div>
     </section>
